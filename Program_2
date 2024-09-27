@@ -1,0 +1,45 @@
+// Program for getting two numbers and the operator from the user for the solution using switch case
+#include <stdio.h>
+
+int main()
+{
+     int a,b,c;
+     char op;
+     
+    printf("\nEnter a number :");
+    scanf("%d",&a);
+    printf("\nEnter a number :");
+    scanf("%d",&b);
+    printf("\nEnter the operator :");
+    scanf(" %c",&op);
+    
+    switch(op)
+    {
+        case'+':
+         c=a+b;
+         printf("\nSum of the number is %d",c);
+         break;
+         
+        case'-':
+         c=a-b;
+         printf("\nDifference of the number is %d",c);
+         break;
+         
+        case'*':
+         c=a*b;
+         printf("\nProduct of the number is %d",c);
+         break;
+    
+        case'/':
+         c=a/b;
+         printf("\nDivisible of the number is %d",c);
+         break;
+         
+        case'%':
+         c=a%b;
+         printf("\nModulus of the number is %d",c);
+         break;
+    }
+
+    return 0;
+}
