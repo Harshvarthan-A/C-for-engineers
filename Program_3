@@ -1,0 +1,46 @@
+// Program to find the largest of three number using else if ladder
+#include <stdio.h>
+
+int main()
+{
+     int a,b,c;
+     
+    printf("\nEnter a number :");
+    scanf("%d",&a);
+    printf("\nEnter a number :");
+    scanf("%d",&b);
+    printf("\nEnter a number :");
+    scanf("%d",&c);
+    
+    if(a>b)
+    {
+        if(a>c)
+        {
+         printf("\n%d is biggest number",a);
+        }
+        else
+        {
+            if(c>b)
+            {
+                printf("\n%d is biggest number",c);
+            }
+        }
+    }
+    else 
+    {
+         if(b>c)
+        {
+         printf("\n%d is biggest number",b);
+        }
+        else 
+        {
+            if(c>a)
+            {
+                printf("\n%d is biggest number",c);
+            }
+        }
+    
+    }
+
+    return 0;
+}
