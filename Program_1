@@ -1,0 +1,10 @@
+// Program for calculating simple intrest
+#include<stdio.h>
+void main()
+{
+    float p,n,r,si;
+    printf("Enter the value :");
+    scanf("%f%f%f",&p,&n,&r);
+    si=(p*n*r)/100;
+    printf("The simple intrest is %f",si);
+}
