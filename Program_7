@@ -1,0 +1,11 @@
+// Program for checking the ASCII value for character
+#include<stdio.h>
+int main()
+{
+    char n;
+    printf("Enter a character :");
+    scanf("%c",&n);
+    
+    printf("The value of the character is %c = %d",n,n);
+    return 0;
+}
